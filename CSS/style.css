@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  box-sizing: border-box;
+  background: #f6f6fa;
+}
+/* main */
+.container {
+  width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid #608bf0;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 3px 3px 5px rgb(96, 139, 240);
+}
+main {
+  margin-right: 40px;
+}
+/* article */
+article {
+  margin-top: 40px;
+  padding-left: 88px;
+}
+.shortInfo h4 {
+  font-size: 14px;
+  line-height: 17px;
+}
+.shortInfo h1 {
+  font-size: 45px;
+  line-height: 55px;
+}
+.shortInfo p {
+  line-height: 24px;
+}
+/* My Project  */
+.project {
+  margin-top: 40px;
+}
+.project h3 {
+  font-size: 22px;
+  line-height: 27px;
+}
+.project_url {
+  display: flex;
+  align-items: center;
+}
+.project ol {
+  padding-inline-start: 17px;
+}
+
+.project a {
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.image {
+  margin-left: -20px;
+}
+.project div:last-child p {
+  font-size: 14px;
+  line-height: 10px;
+}
+/* Work Experience company 1 */
+.exper {
+  margin-top: 40px;
+}
+.company h2 {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+.company h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.company h3 {
+  font-size: 22px;
+  line-height: 27px;
+}
+.company h4 span {
+  color: blue;
+}
+.company > p {
+  color: #a8a8a8;
+  font-size: 12px;
+  line-height: 15px;
+}
+.company ul {
+  font-size: 14px;
+  line-height: 24px;
+  padding-inline-start: 17px;
+}
+/* aside */
+aside {
+  width: 370px;
+  padding-top: 40px;
+  background: #e0ebfe;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.company .aside-ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.last_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.skills-ul {
+  margin-left: 18px;
+}
+.aside-ul > li:first-child a {
+  color: #161d2a;
+  text-decoration: none;
+}
+li strong {
+  padding-right: 8px;
+}
+li,
+p,
+a {
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
